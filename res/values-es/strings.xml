@@ -150,7 +150,7 @@
 	<string name="format2">Тверда обкладинка</string>
 	<string name="format3">Електронна книга</string>
 	<string name="format4">Аудіокнига</string>
-	<string name="format5">Guía</string>
+	<string name="format5">Підручник/Довідник</string>
     <!-- NOTE: Adding a new format will involve changing code that references this list -->
 	<string name="description">Опис</string>
 	<string name="genre">Жанр</string>
