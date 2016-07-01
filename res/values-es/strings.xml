@@ -231,7 +231,7 @@
 	<string name="click_on_thumb">Натисніть на обкладинку для збільшення.</string>
 	<string name="loading">Завантаження&#8230;</string>
 	<string name="image_not_found">Зображення не знайдено</string>
-========
+
 	<string name="select_min_1_field">Виберіть хоч одне поле</string>
 	<string name="usage_copy_if_blank">Копіювати, якщо поле порожнє</string>
 	<string name="usage_add_extra">Додати додаткові дані</string>
@@ -253,61 +253,52 @@
 	<string name="reset">Зкинути</string>
 	<string name="send_info_text">Натисніть наступну кнопку, щоб зібрати інформацію про будь-яку недавню помилку та вислати команді розробників. Буде створено резервну копію вашої бази даних та файлів реєстру. Якщо ви небажаєте висилати будь-який з цих файлів, просто видаліть їх перед відправленням згенерованого повідомлення.</string>
 	<string name="send_info">Відправити інформацію.</string>
-	<string name="cleanup_files_text">
-	====================================================
-		Los ficheros que se pueden eliminar ocupan %s en la tarjeta SD. Cada vez que se actualiza la versión de BookCatalogue, al hacer una copia de seguridad o cuando falla la aplicación se crean ficheros de registro en la tarjeta SD. Pulse el botón siguiente para eliminarlos. Si ha detectado algún error, le agradeceremos que utilice primero la opción de \'Enviar información\'.</string>
-	<string name="cleanup_files">Borrar ficheros</string>
-	<string name="no_debug_info">No se ha encontrado información sobre fallos</string>
+	<string name="cleanup_files_text">Файли, що можуть бути видалені, займають %s на картці SD. З кожним оновленням додатку, зберіганням копії або коли виникає помилка, на картці SD створюються файли регістру. Натисніть наступну кнопку, щоб їх видалити. Якщо виникла помилка, ми будемо вдячні, якщо спочатку буде обрано 'Вислати інформацію'.</string>
+	<string name="cleanup_files">Видалити файли</string>
+	<string name="no_debug_info">Інформації про помилки не було знайдено.</string>
 	<string name="megabytes">%.2fMB</string>
 	<string name="kilobytes">%.2fkB</string>
 	<string name="bytes">%.0f bytes</string>
 	<string name="debug_email">eleybourn@gmail.com;grunthos@rhyme.com.au</string>
-	<string name="sortby_author_given">Ordenar por autor (Nombre)</string>
-	<string name="debug_subject">Recopilando información sobre fallos</string>
-	<string name="debug_body">Por favor, explique brevemente el problema experimentado.</string>
-	<string name="menu_duplicate">Duplicar libro</string>
-    <string name="cannot_edit_system">No se pueden modificar los valores del sistema</string>
-    <string name="incorrect_key">Su clave de desarrollador de LibraryThing es incorrecta, o no se  ha podido contactar para verificarla.</string>
-    <string name="correct_key">Su clave de desarrollador de LibraryThing es válida.</string>
-    <string name="sortby_author_one">Ordenar por Autor (sólo el primer autor)</string>
-    <string name="no_connection">No hay conexión a internet.</string>
-    <string name="sortby_published">Ordenar por fecha de publicación</string>
-    <string name="menu_share_this">Compartir</string>
-    <string name="email_export">¿Desea enviar por correo electrónico el fichero exportado?</string>
-    <string name="menu_crop_thumb">Recortar miniatura</string>
-    <string name="test_goodreads">Comprobar Goodreads</string>
-    <string name="task_errors">Errores en tareas</string>
-    <string name="retry">Reintentar</string>
-    <string name="optionsElipsis">Opciones&#8230;</string>
-    <string name="edit_bookElipsis">Editar Libro&#8230;</string>
-    <string name="retry_task">Reintentar</string>
-    <string name="visit_goodreads">Visitar GoodReads&#8230;</string>
-    <string name="delete_event">Eliminar Evento</string>
-    <string name="delete_task">Eliminar Tarea</string>
+	<string name="sortby_author_given">Впорядкувати за автором (за ім'ям)</string>
+	<string name="debug_subject">Збір інформації про помилку.</string>
+	<string name="debug_body">Будь ласка, опишіть коротку проблему.</string>
+	<string name="menu_duplicate">Дублювати книгу</string>
+    <string name="cannot_edit_system">Системні дані не можуть бути змінені.</string>
+    <string name="incorrect_key">Ключ розробника від LibraryThing не вірний або неможливо під'єднатись щоб його перевірити.</string>
+    <string name="correct_key">Ключ розробника від LibraryThing прийнято.</string>
+    <string name="sortby_author_one">Впорядкувати за автором (тільки перший автор)</string>
+    <string name="no_connection">Немає з'єднання з інтернетом.</string>
+    <string name="sortby_published">Впорядкувати за датою видання.</string>
+    <string name="menu_share_this">Поділитись</string>
+    <string name="email_export">Чи бажаєте відправити експортований файл електронним повідомленням?</string>
+    <string name="menu_crop_thumb">Обрізати обкладинку</string>
+    <string name="test_goodreads">Перевірити Goodreads</string>
+    <string name="task_errors">Помилки в завданнях</string>
+    <string name="retry">Спробувати ще раз</string>
+    <string name="optionsElipsis">Настройки&#8230;</string>
+    <string name="edit_bookElipsis">Редагувати книгу&#8230;</string>
+    <string name="retry_task">Спробувати ще раз</string>
+    <string name="visit_goodreads">Відвідати GoodReads&#8230;</string>
+    <string name="delete_event">Видалити подію</string>
+    <string name="delete_task">Видалити завдання</string>
 
-    <string name="my_books">Mis Libros</string>
-    <string name="my_books_classic">Mis Libros (Clásico)</string>
-    <string name="loan_return_book">Prestar, Devolver o Editar Libro</string>
-    <string name="admin_and_prefs">Administración y Preferencias</string>
-    <string name="edit_book_send_to_gr">Enviar a goodreads</string>
+    <string name="my_books">Мої книги</string>
+    <string name="my_books_classic">Мої книги (класичний вигляд)</string>
+    <string name="loan_return_book">Позичити, повернути чи редагувати книгу</string>
+    <string name="admin_and_prefs">Керування та настройки</string>
+    <string name="edit_book_send_to_gr">Вислати до goodreads</string>
     <string name="goodreads">goodreads</string>
     <string name="goodreads_label">Goodreads</string>
-    <string name="goodreads_auth_blurb_part1">goodreads es un sitio web cuya misión es "ayudar a la gente a encontrar y compartir los libros que les gustan". 
-    										Disponen de una amplia base de datos de libros y comentarios, y si eres un usuario registrado de goodreads, 
-    										BookCatalogue puede exportar sus libros, bibliotecas y comentarios a goodreads e importar sus libros, 
-    										bibliotecas y comentarios de goodreads. BookCatalogue es una aplicación independiente, y no
-    										necesita goodreads, pero si esta usted interesado se puede registrar en:</string>
-    <string name="goodreads_auth_blurb_part2">Una vez se haya registrado, o si ya es usuario de goodreads, puede autorizar el acceso de BookCatalogue 
-    										a sus datos de goodreads pulsando sobre el botón siguiente. Le llevará a una página web
-    										en la que tendrá que acceder a goodreads para autorizar esta aplicación. Nosotros nunca veremos
-    										su contraseña, y podrá desactivar el acceso desde el sitio web de goodreads. Debido a la imprevisibilidad
-    										de la web, puede terminar en una página en blanco. En ese caso, pulse el botón Atrás de su navegador para volver aquí.</string>
-    <string name="goodreads_auth_blurb_part3">Pero recuerde&#8230;que no es necesario hacer nada de esto: BookCatalogue funciona perfectamente sin ello.</string>
+    <string name="goodreads_auth_blurb_part1">goodreads - це веб сторінка, міссія якої "допомогти людям знайти та поділитися книгами, які їм подобаються". Там є велика база даних книг та коментарів, і якщо ви є зареєстрованим користувачем goodreads, BookCatalogue може експортувати ваші книги, полички та коментарі до goodreads та імпортувати ваші книги, полички та коментарі з goodreads. BookCatalogue - це незалежний додаток та не потребує goodreads, але якщо ви зацікавлені в цих можливостях, то можете там зареєструватись:</string>
+    <string name="goodreads_auth_blurb_part2">Коли ви зареєструєтесь, або якщо ви вже є зареєстрованим користувачем, можете дозволити доступ BookCatalogue до ваших даних goodreads, натиснувши наступну кнопку. Ви будете спрямовані на веб стонінку, де ви маєте увійти до goodreads для дозволу доступу до неї. Ми ніколи не взнаємо вашого паролю, також ви можете вимкнути доступ з веб сторінки. Непередбачено може відкритись порожня сторінка. У цьому випадку натисніть кнопку 'назад' у своєму навігаторі, щоб повернутись сюди.</string>
+    <string name="goodreads_auth_blurb_part3">Але пам'ятайте&#8230;що це не обов'язково робити: BookCatalogue чудово працює й без цього.</string>
     <string name="goodreads_url">http://www.goodreads.com</string>
-    <string name="authorize_access">Autorizar acceso</string>
-    <string name="authorize_access_already_auth">Parece que usted ya había autorizado esta aplicación. Todas las funciones de goodreads deberían estar ya disponibles</string>
-    <string name="goodreads_access_error">Se ha producido un problema de red al acceder a goodreads. Compruebe si el sitio web de goodreads está operativo, y si el problema persiste póngase en contacto con su servicio de soporte</string>
-    <string name="other_preferences">Otras preferencias</string>
+    <string name="authorize_access">Дозволити доступ</string>
+    <string name="authorize_access_already_auth">Здається, ви вже надали додатку доступ. Усі функції goodreads мають бути вже доступні.</string>
+    <string name="goodreads_access_error">Виникла помилка мережі при доступі до goodreads. Перевірте, чи веб сторінка goodreads доступна, і якщо проблема не вирішується, зв'яжіться зі службою підтримки</string>
+    <string name="other_preferences">Інші настройки</string>
+ ===============================================================================
     <string name="user_interface">Interfaz de usuario</string>
     <string name="start_in_my_books">Empezar en \'Mis libros\'</string>
     <string name="include_classic_catalogue_view">Incluir vista clásica del Catálogo</string>
