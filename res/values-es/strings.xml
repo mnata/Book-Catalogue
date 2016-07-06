@@ -403,201 +403,193 @@
     <string name="do_not_show_again">більше не показувати</string>
     <string name="other_settings_ellipsis">Інші налаштування&#8230;</string>
 =====
-<string name="hint_booklist_styles_editor">Puede utilizar esta opción para configurar la lista de estilos que se mostrarán en su menú de estilos. 
-    										\n\nUna marca verde indica que el estilo se mostrará en la lista, un aspa roja indica que no se mostrará.
-    										Al hacer clic sobre una marca verde se convierte en un aspa roja, y viceversa.
-    										\n\nSi no se marca ningún estilo, se mostrarán todos.
-    										\n\nEs posible reordenar los elementos arrastrando el icono del extremo derecho de cada fila.
-    										\n\nHaciendo clic en cualquier otro sitio de la línea podrá editar los detalles de un estilo específico 
-    										(o copiarlo, si es un estilo predefinido).
+<string name="hint_booklist_styles_editor">Можете використати цю опцію для налаштування стилів, що відображатимуться в меню стилів.
+\n\nЗелений гачок означає, що стиль буде відображатись у списку, червоний хрестик означає, що не буде.
+Натиснувши на зеленого гачка, він перетвориться на червоний хрестик та навпаки.
+\n\nЯкщо не вибрати жодного стилю, відображатимуться всі.
+\n\nВи можете впорядкувати стилі, перетягуючи іконку праворуч кожного рядка.
+\n\nКлацнувши у будь-якому іншому місці рядка, ви зможете редагувати вибраний стиль (або копіювати, якщо це стиль за замовченням).
 </string>
-    <string name="hint_booklist_style_groups">Puede utilizar esta opción para modificar la jerarquía de las cabeceras para un determinado estilo de listado.
-    										\n\nUna marca verde indica que el encabezado se mostrará en la lista, un aspa roja indica que no se mostrará.
-    										Al hacer clic sobre una marca verde se convierte en un aspa roja, y viceversa.
-    										\n\nPuede reordenar la jerarquía arrastrando el icono del extremo derecho de cada fila hacia arriba o hacia abajo.
+    <string name="hint_booklist_style_groups">Можете використати цю опцію для впорядкування заголовків вибраного зі списку стилю.
+\n\nЗелений гачок означає, що заголовок буде відображатись у списку, червоний хрестик означає, що не буде.
+Натиснувши на зеленого гачка, він перетвориться на червоний хрестик та навпаки.
+\n\nЯкщо не вибрати жодного заголовку, відображатимуться всі.
+\n\nВи можете впорядкувати заголовки, перетягуючи іконку праворуч кожного рядка догори або донизу.
 </string>
-    <string name="hint_booklist_style_properties">Puede utilizar esta opción para configurar las características de un determinado estilo de listado.
-    										\n\nPuede cambiar el nombre, editar los grupos para cambiar la jerarquía y modificar otros parámetros para
-    										configurar un estilo que le resulte útil.
-    										\n\nTambién se pueden utilizar \'Filtrar libros\' para modificar la selección de libros que se mostrarán en
-    										el listado, por ejemplo, para mostrar únicamente libros no leídos.
+    <string name="hint_booklist_style_properties">Можете використати цю опцію для конфігурації характеристик вибраного зі списку стилю.
+\n\nМожете змінити назву, редагувати групи, щоб змінити впорядкування та редагувати інші параметри з метою налаштування зручного для вас стилю.
+\n\nТакож можна використати \'Фільтрувати книги\' для редагування книг, що будуть показані у списку, наприклад, показувати тільки непрочитані книги.
 </string>
-    <string name="hint_booklist_global_properties">Puede utilizar esta opción para configurar las características por defecto de todos los estilos de listados de libros.
-    										\n\nLa mayoría de las propiedades se pueden modificar para cada estilo individual, pero los valores por defecto se
-    										definen aquí.
-    										\n\nPuede cambiar el fondo, la forma en que los listados se muestran de inicio, y modificar otros parámetros
-    										que se aplicarán a todos sus estilos cuando sea posible.
-    										\n\nTambién puede editar desde aquí el menú de estilos, y los propios estilos.
+    <string name="hint_booklist_global_properties">Можете використати цю опцію для налаштування характеристик за замовчуванням усіх стилів списків книг.
+\n\nБільшість властивостей можна редагувати для кожного окремого стилю, але значення за замовчуванням визначаються тут.
+\n\nМожете змінити тло, як відображатимуться списки на початку та редагувати інші параметри, які будуть застосовані до всіх стилів, якщо це можливо.
+\n\nТакож можете редагувати звідси меню стилів та самі стилі.
 </string>
-    <string name="preferred_styles">Estilos preferidos</string>
-    <string name="edit_style_colon_name">Editar estilo: %1$s</string>
-    <string name="add_style">Añadir estilo</string>
-    <string name="clone_style_colon_name">Duplicar estilo: %1$s</string>
-    <string name="non_blank_arg_required">Se debe especificar un valor para \'%1$s\'</string>
-    <string name="select_read_only">Seleccionar sólo libros leídos</string>
-    <string name="select_unread_only">Seleccionar sólo libros no leídos</string>
-    <string name="extra_filters">Filtros adicionales</string>
-    <string name="new_style">Nuevo estilo</string>
-    <string name="select_based_on_read_status">Seleccionar en función del estado \'Leído\'</string>
-    <string name="books_with_multiple_authors">Libros con varios autores</string>
-    <string name="books_in_multiple_series">Libros en varias series</string>
-    <string name="use_default_setting">Utilizar configuración por defecto</string>
-    <string name="show_book_under_each_thing">Bajo cada %1$s</string>
-    <string name="show_book_under_primary_thing">Sólo bajo primer %1$s</string>
-    <string name="format_of_author_names">Formato para nombres de autor</string>
-    <string name="given_name_first_eg">Nombre primero, por ejemplo \'Antonio García\'</string>
-    <string name="family_name_first_eg">Apellido primero, por ejemplo \'García, Antonio\'</string>
-    <string name="thumbnails">Miniaturas</string>
-    <string name="size_of_booklist_items">Tamaño de los elementos en el listado</string>
-    <string name="normal">Normal</string>
-    <string name="smaller">Pequeño</string>
-    <string name="select_style">Seleccionar Estilo</string>
-    <string name="booklist_background_style">Fondo para el listado</string>
-    <string name="textured_backgroud">Imagen de fondo texturizada</string>
-    <string name="plain_background_b_reduces_flicker_b">Fondo liso (reduce el parpadeo)</string>
-    <string name="thing_must_not_be_blank">%1$s no puede ser blanco</string>
-    <string name="edit">Editar</string>
-    <string name="groupings">Grupos</string>
-    <string name="will_be_shown">Se mostrará</string>
-    <string name="will_not_be_shown">No se mostrará</string>
-    <string name="preferences">Preferencias</string>
-    <string name="unexpected_error">Se ha producido un error inesperado. Por favor, envíe los detalles a soporte utilizando la opción \'Help\' del menú principal</string>
-    <string name="delete_style">Eliminar Estilo</string>
-    <string name="edit_style">Editar Estilo</string>
-    <string name="clone_style">Duplicar Estilo</string>
+    <string name="preferred_styles">Улюблені стилі</string>
+    <string name="edit_style_colon_name">Редагувати стиль: %1$s</string>
+    <string name="add_style">Додати стиль</string>
+    <string name="clone_style_colon_name">Копіювати стиль: %1$s</string>
+    <string name="non_blank_arg_required">Потрібно вказати значення для \'%1$s\'</string>
+    <string name="select_read_only">Вибрати тільки прочитані книги</string>
+    <string name="select_unread_only">Вибрати тільки непрочитані книги</string>
+    <string name="extra_filters">Додаткові фільтри</string>
+    <string name="new_style">Новий стиль</string>
+    <string name="select_based_on_read_status">Вибрати за станом \'Прочитано\'</string>
+    <string name="books_with_multiple_authors">Книги з декількома авторами</string>
+    <string name="books_in_multiple_series">Книги в декількох серіях</string>
+    <string name="use_default_setting">Використати налаштування за замовчуванням</string>
+    <string name="show_book_under_each_thing">Під кожним %1$s</string>
+    <string name="show_book_under_primary_thing">Тільки під першим %1$s</string>
+    <string name="format_of_author_names">Формат для імен авторів</string>
+    <string name="given_name_first_eg">Спочатку ім'я, наприклад, \'Іван Малкович\'</string>
+    <string name="family_name_first_eg">Спочатку прізвище, наприклад, \'Малкович, Іван\'</string>
+    <string name="thumbnails">Обкладинки</string>
+    <string name="size_of_booklist_items">Розмір елементів списку</string>
+    <string name="normal">Звичайний</string>
+    <string name="smaller">Маленький</string>
+    <string name="select_style">Вибрати стиль</string>
+    <string name="booklist_background_style">Тло для списку</string>
+    <string name="textured_backgroud">Текстурне зображення тла</string>
+    <string name="plain_background_b_reduces_flicker_b">Суцільне тло (зменшує блимкання)</string>
+    <string name="thing_must_not_be_blank">%1$s не може бути порожнім</string>
+    <string name="edit">Редагувати</string>
+    <string name="groupings">Групи</string>
+    <string name="will_be_shown">Буде показано</string>
+    <string name="will_not_be_shown">Не буде показано</string>
+    <string name="preferences">Не буде показано</string>
+    <string name="unexpected_error">Сталася неочікувана помилка. Будь ласка, вишліть подробиці в службу підтримки вибравши \'Допомога\' з головного меню.</string>
+    <string name="delete_style">Видалити стиль</string>
+    <string name="edit_style">Редагувати стиль</string>
+    <string name="clone_style">Копіювати стиль</string>
     <string name="dash_or_dash">- O -</string>
-    <string name="paypal_donation">Donación PayPal</string>
-    <string name="compact">Compacto</string>
-    <string name="user_defined">Definido por el usuario</string>
-    <string name="builtin">Predefinido</string>
-    <string name="sort_unread">No leídos (Autor/Serie)</string>
-    <string name="import_all_from_goodreads">Importar todo de goodreads</string>
-    <string name="requested_task_is_already_queued">La tarea solicitada ya está en la cola</string>
-    <string name="export_task_is_already_queued">Ya hay una tarea de exportación pendiente, y debe completarse antes de que se pueda lanzar de nuevo</string>
-    <string name="import_task_is_already_queued">Ya hay una tarea de importación pendiente, y debe completarse antes de que se pueda lanzar de nuevo</string>
-    <string name="goodreads_action_cannot_blah_blah">Esta acción no se puede completar mientras la aplicación no sea autorizada en el sitio web goodreads web site. Inténtelo una vez haya autorizado esta aplicación. \n\nQuiere autorizarla ahora?</string>
-    <string name="tell_me_more">Cuéntenos más</string>
-    <string name="retry_x_of_y_next_at_z">Reintento %1$s de %2$s, el próximo a las %3$s</string>
-    <string name="completed">Completado</string>
-    <string name="failed">Fallido</string>
-    <string name="queued">En cola</string>
-    <string name="unknown">Desconocido</string>
-    <string name="send_books_to_goodreads_blurb">Esta opción enviará su biblioteca a goodreads.
-    										\n\nPuede elegir enviar todos sus libros o sólo los que haya actualizado desde 
-    										la última vez que fueron copiados a o desde goodreads (incluyendo todos los libros 
-    										que todavía no han sido enviados), o cancelar la actualización.
-    										\n\nSi no ha enviado nunca ningún libro, entonces no hay ninguna diferencia 
-    										entre las dos opciones.</string>
-    <string name="send_all">Enviar todo</string>
-    <string name="send_updated">Sólo actualizados</string>
-    <string name="sync_with_goodreads">Sincronizar con goodreads</string>
-    <string name="cover_options_cc_ellipsis">Opciones de Portadas&#8230;</string>
-    <string name="show_events_ellipsis">Mostrar eventos&#8230;</string>
-    <string name="hint_authors_book_may_appear_more_than_once">Si se muestra para cada autor, un mismo libro puede aparecer más de una vez en un listado. En ese caso, si se elimina uno de esos libros se eliminará de todas las posiciones del listado.</string>
-    <string name="hint_series_book_may_appear_more_than_once">Si se muestra en cada serie, un mismo libro puede aparecer más de una vez en un listado. En ese caso, si se elimina uno de esos libros se eliminará de todas las posiciones del listado.</string>
-    <string name="hint_background_tasks">Aquí puede ver las tareas que se están ejecutando, así como las que ya se han completado con errores o con otro tipo de incidencias. 
-    								Haciendo clic sobre una tarea podrá ver los eventos asociados, o borrar la tarea (y los eventos).</string>
-    <string name="hint_background_task_events">Aquí puede ver los eventos asociados con una tarea en segundo plano. 
-    								Haciendo clic sobre un evento podrá realizar distintas acciones según el tipo de evento.</string>
-    <string name="hints_have_been_reset">Sugerencias reseteadas</string>
-    <string name="task_has_been_queued_in_background">Tarea añadida a la cola de tareas en segundo plano</string>
-    <string name="hint_startup_screen">Esta es la pantalla estándar de inicio de BookCatalogue. Si lo prefiere, puede iniciar la aplicación directamente en \'Mis Libros\'; la pantalla de inicio preferida puede cambiarse en preferencias.</string>
-    <string name="upgrading_ellipsis">Actualizando&#8230;</string>
-    <string name="explain_goodreads_no_isbn">El libro seleccionado no tiene ISBN; no se puede sincronizar de forma automática con goodreads. 
-    									Para solucionarlo puede:
-    									\n\n(1) eliminar el libro BookCatalogue
-    									\n\n(2) añadir el libro de forma manual en goodreads utilizando su interfaz web
-    									\n\n(3) sincronizar con goodreads
-    									\n\nAl hacerlo, se volverá a crear el libro en BookCatalogue y ambos permanecerán vinculados a partir de ese momento.</string>
-    <string name="explain_goodreads_no_match">El ISBN del libro seleccionado no se pudo localizar en goodreads. Esto puede ocurrir por dos motivos: 
-    									los datos del libro son erróneos (debería comprobar el ISBN), o el libro no está en goodreads. 
-    									\n\nSi modifica los datos en BookCatalogue, pulse el botón \'Retry\' y compruebe si la tarea de
-    									fondo creada termina con éxito. 
-    									\n\nSi los datos son correctos y el libro sigue sin aparecer, entonces debe añadir un libro con ese ISBN de forma manual en 
-										el sitio web de goodreads. Una vez haya hecho eso, puede volver a intentar enviar el libro.</string>
-    <string name="read_amp_unread">Leído &amp; No leído</string>
-    <string name="loaned">Prestado</string>
-    <string name="publication_year">Año de publicación</string>
-    <string name="publication_month">Mes de publicación</string>
-    <string name="publication_day">Día de publicación</string>
-    <string name="added_year">Año de inclusión</string>
-    <string name="added_month">Mes de inclusión</string>
-    <string name="added_day">Día de inclusión</string>
-    <string name="book">Libro</string>
-    <string name="in">en</string>
-    <string name="size">Tamaño</string>
-    <string name="updated">Actualizado</string>
-    <string name="no_export_files_found">No se han encontrado archivos exportados</string>
-    <string name="more_than_one_export_file_blah">Se ha encontrado más de un archivo exportado; por favor, seleccione el archivo que desea importar de la lista siguiente</string>
-    <string name="problem_starting_import_arg">Ha habido un problema con la importación: %1$s</string>
-    <string name="hint_booklist_style_menu">Esta opción le permite seleccionar el estilo de los listados. 
-    								\n\nTambién puede modificar este menú, así como crear sus propios estilos de listado, seleccionando \'Configurar\' al final de la lista.</string>
-    <string name="menu_edit_format">Editar Formato&#8230;</string>
-    <string name="edit_format_name">Editar Nombre del Formato</string>
-    <string name="name_can_not_be_blank">El nombre no puede ser blanco</string>
-    <string name="export_starting_ellipsis">Empezando exportación&#8230;</string>
-    <string name="resizing_cover_thumbnails">Redimensionado de miniaturas</string>
-    <string name="resize_each_time">Redimensionar cada vez que se necesitan (se utiliza menos almacenamiento, el desplazamiento será más lento)</string>
-    <string name="cache_resized_thumbnails_for_later_use">Miniaturas redimensionadas en caché (usa más almacenamiento, desplazamiento más rápido)</string>
-    <string name="generating_cover_thumbnails">Generación de miniaturas</string>
-    <string name="use_background_thread">Usar hilo de fondo (desplazamiento más rápido, las imágenes pueden retrasarse)</string>
-    <string name="generate_immediately">Generar inmediatamente (desplazamiento más lento, las imágenes se muestran inmediatamente)</string>
-    <string name="sort_and_style_ellipsis">Estilo de &amp; ordenación&#8230;</string>
-    <string name="disable_background_image">Deshabilitar fondo</string>
-    <string name="displaying_n_books_in_m_entries">Se muestran %1$s libros, en %2$s entradas</string>
-    <string name="displaying_n_books">Se muestran %1$s libros</string>
-    <string name="available">Disponible</string>
+    <string name="paypal_donation">Внесок PayPal</string>
+    <string name="compact">Компактно</string>
+    <string name="user_defined">Визначено користувачем</string>
+    <string name="builtin">За замовчуванням</string>
+    <string name="sort_unread">Не прочитано (Автор/Серія)</string>
+    <string name="import_all_from_goodreads">Імпортувати усе з</string>
+    <string name="requested_task_is_already_queued">Зазначене завдання вже в черзі.</string>
+    <string name="export_task_is_already_queued">Очікується завдання експорту, яке має виконатись перш ніж запустити його знову.</string>
+    <string name="import_task_is_already_queued">Очікується завдання імпорту, яке має виконатись перш ніж запустити його знову.</string>
+    <string name="goodreads_action_cannot_blah_blah">Ця подія не може виконатись поки додаток не буде авторизовано на веб сторінці goodreads. Спробуйте знову після того, як авторизуєте цей додаток. \n\nБажаєте авторизувати зараз?</string>
+    <string name="tell_me_more">Розкажіть нам більше</string>
+    <string name="retry_x_of_y_next_at_z">Спроба %1$s de %2$s, наступна о %3$s</string>
+    <string name="completed">Виконано</string>
+    <string name="failed">Не виконано</string>
+    <string name="queued">У черзі</string>
+    <string name="unknown">Невідомо</string>
+    <string name="send_books_to_goodreads_blurb">Ця опція вишле вашу поличку до goodreads.
+    \n\nМожете вибрати усі свої книги або тільки редаговані після копіювання до або з goodreads (включаючи всі книги, що до цих пір не були вислані), або скасувати оновлення.
+\n\nЯкщо ви не ніколи не висилали туди книги, то немає різниці між цими двома опціями.
+    <string name="send_all">Вислати усе</string>
+    <string name="send_updated">Тільки оновлені</string>
+    <string name="sync_with_goodreads">Синхронізувати з goodreads</string>
+    <string name="cover_options_cc_ellipsis">Налаштування обкладинок&#8230;</string>
+    <string name="show_events_ellipsis">Показати подію&#8230;</string>
+    <string name="hint_authors_book_may_appear_more_than_once">Якщо вибране відображення за автором, одна й та сама книга може з'явитися декілька разів у списку. У цьому випадку, якщо вона буде видалена, то вона зникне з усіх позицій списку.</string>
+    <string name="hint_series_book_may_appear_more_than_once">Якщо вибране відображення за серією, одна й та сама книга може з'явитися декілька разів у списку. У цьому випадку, якщо вона буде видалена, то вона зникне з усіх позицій списку.</string>
+    <string name="hint_background_tasks">Тут можна побачити завдання, що виконуються, а також вже виконані з помилками або іншіми зауваженнями.
+Клацнувши на завданні можна побачити пов'язані події або видалити завдання (та події).</string>
+    <string name="hint_background_task_events">Тут можна побачити події пов'язані з якимось завданням у фоновому режимі.
+Клацнувши на події можна виконати різні дії в залежності від типу події.</string>
+    <string name="hints_have_been_reset">Поради перезавантажено</string>
+    <string name="task_has_been_queued_in_background">Завдання додане в чергу завдань у фоновому режимі.</string>
+    <string name="hint_startup_screen">Це стандартний екран початку
+Якщо хочете, додаток може відкриватись одразу на \'Мої книги\'; початковий екран можна змінити в налаштуваннях.</string>
+    <string name="upgrading_ellipsis">Оновлення&#8230;</string>
+    <string name="explain_goodreads_no_isbn">Вибрана книга не має ISBN; не можливо автоматично синхронізувати з goodreads. 
+    									Щоб це вирішити можете:
+    									\n\n(1) видалити книгу з BookCatalogue
+    									\n\n(2) додати книгу вручну до goodreads використавши їхній формуляр веб
+    									\n\n(3) синхронізувати з goodreads
+    									\n\nВиконавши це, книгу буде знову створено в BookCatalogue та з цього моменту обидві книги будуть поєднані.</string>
+    <string name="explain_goodreads_no_match">Не можливо знайти ISBN книги в goodreads. Це може трапитись, тому що:
+    									невірні данні (перевірте ISBN), або книги немає в goodreads.
+    									\n\nЯкщо ви відредагуєте дані в BookCatalogue, натисніть \'Спробувати ще раз\' та перевірте, чи фонове завдання успішно виконане.
+    									\n\nЯкщо всі дані вірні, але книга не з'являється, тоді потрібно додати книгу з цим ISBN вручну на сторінці веб goodreads. Коли ви це зробите, спробуйте знову додати книгу.</string>
+    <string name="read_amp_unread">Прочитано &amp; Не прочитано</string>
+    <string name="loaned">Позичено</string>
+    <string name="publication_year">Рік видавництва</string>
+    <string name="publication_month">Місяць видавництва</string>
+    <string name="publication_day">День видавництва</string>
+    <string name="added_year">Рік додання</string>
+    <string name="added_month">Місяць додання</string>
+    <string name="added_day">День додання</string>
+    <string name="book">Книга</string>
+    <string name="in">в</string>
+    <string name="size">Розмір</string>
+    <string name="updated">Оновлено</string>
+    <string name="no_export_files_found">Експортовані файли не знайдено.</string>
+    <string name="more_than_one_export_file_blah">Знайдено більше ніж 1 експортований файл; будь ласка, виберіть файл, що ви бажаєте імпортувати з наступного списку.</string>
+    <string name="problem_starting_import_arg">Виникла проблема імпорту: %1$s</string>
+    <string name="hint_booklist_style_menu">Ця опція дозволяє вибрати стиль списків. 
+    								\n\nТакож можете редагувати це меню, створювати власні стилі списків, вибравши \'Налаштувати\' в кінці цього списку.</string>
+    <string name="menu_edit_format">Редагувати формат&#8230;</string>
+    <string name="edit_format_name">Редагувати назву формату</string>
+    <string name="name_can_not_be_blank">Назва не може бути порожньою</string>
+    <string name="export_starting_ellipsis">Початок експорту&#8230;</string>
+    <string name="resizing_cover_thumbnails">Зміна розмірів обкладинок</string>
+    <string name="resize_each_time">Змінити розміри кожного разу, коли це потрібно (використовується менше пам'яті, пересування буде вповільнене).</string>
+    <string name="cache_resized_thumbnails_for_later_use">Змінені розміри в каше (використовується біьлше пам'яті, пересування буде швидше).</string>
+    <string name="generating_cover_thumbnails">Зтворення мініатюр обкладинок.</string>
+    <string name="use_background_thread">Використовувати фонову прокрутку (швидше пересування, зображення можуть затримуватись).</string>
+    <string name="generate_immediately">Одразу генерувати (повільніше пересування, зображення з'являються одразу).</string>
+    <string name="sort_and_style_ellipsis">Стиль &amp; впорядкування&#8230;</string>
+    <string name="disable_background_image">Вимкнути тло</string>
+    <string name="displaying_n_books_in_m_entries">Зображено %1$s книг, в %2$s елементах</string>
+    <string name="displaying_n_books">Зображено %1$s книг</string>
+    <string name="available">В наявності</string>
     <string name="loaned_to_2">\u2192</string>
-    <string name="summary_details_in_header">Resumen en la cabecera</string>
-    <string name="hide_summary_details">Ocultar resumen</string>
-    <string name="show_summary_details">Mostrar resumen</string>
-    <string name="x_is_not_a_valid_isbn">%1$s no es un ISBN válido</string>
-    <string name="beep_if_scanned_isbn_invalid">Pitido si el ISBN escaneado no es válido</string>
-    <string name="no_image_found">No se ha encontrado imagen</string>
-    <string name="could_not_copy_image">No se pudo copiar la imagen</string>
-    <string name="this_option_is_not_available_until_the_book_is_saved">Esta opción no está disponible mientras no se guarde el libro</string>
-    <string name="scan_barcode_isbn">Escanear código de barras/ISBN</string>
-    <string name="enter_isbn">Introducir ISBN</string>
-    <string name="allow_asin">Permitir ASIN</string>
-    <string name="x_is_not_a_valid_isbn_or_asin">%1$s no es un ISBN o ASIN válido</string>
-    <string name="confirm_exit">Confirmar salida</string>
-    <string name="you_may_have_unsaved_changes">Es posible que haya cambios sin guardar. ¿Está seguro de que quiere salir sin guardar?</string>
-    <string name="read_year">Año de lectura</string>
-    <string name="read_month">Mes de lectura</string>
-    <string name="read_day">Día de lectura</string>
-    <string name="sort_read_date">Fecha de lectura</string>
-    <string name="details_have_changed">Detalles modificados</string>
-    <string name="you_have_unsaved_changes">Hay cambios que no se han guardado. Si sale ahora, se perderán.</string>
-    <string name="exit">Salir</string>
-    <string name="continue_editing">Continuar editando</string>
-    <string name="the_title_already_exists">El título ya existe</string>
-    <string name="year">Año</string>
-    <string name="month">Mes</string>
-    <string name="day">Día</string>
-    <string name="edit_lc_ellipsis">Editar&#8230;</string>
-    <string name="getting_books_ellipsis">Obteniendo libros&#8230;</string>
-    <string name="n_events_found">%1$s Eventos encontrados</string>
-    <string name="last_error_e">Último error: %1$s</string>
-    <string name="invalid_isbn_x_specified_in_search">ISBN no válido \'%1$s\' en la búsqueda</string>
-    <string name="if_day_is_specified_month_and_year_must_be">Si se especifica un día, deben especificarse también el mes y el año.</string>
-    <string name="if_month_is_specified_year_must_be">Si se especifica el mes, debe especificarse también el año.</string>
-    <string name="main_menu">Menú principal</string>
-    <string name="use_external_image_cropper">Utilizar recortador de imágenes externo (experimental)</string>
-    <string name="auto_rotate_camera_images">Girar automáticamente las imágenes de la cámara</string>
-    <string name="hint_autorotate_camera_images">Si siempre tiene que girar las imágenes de la cámara en el mismo sentido, intente cambiar la configuración para aplicar la rotación automática.</string>
-    <string name="default_crop_frame_is_whole_image">Por defecto, la imagen se guarda completa</string>
-    <string name="cancelled">Cancelado</string>
-    <string name="import_complete">Importación finalizada</string>
+    <string name="summary_details_in_header">Короткий зміст у заголовку</string>
+    <string name="hide_summary_details">Сховати  короткий зміст</string>
+    <string name="show_summary_details">Показати  короткий зміст</string>
+    <string name="x_is_not_a_valid_isbn">%1$s Не дійсний ISBN</string>
+    <string name="beep_if_scanned_isbn_invalid">Пікнути, якщо відсканований ISBN не дійсний.</string>
+    <string name="no_image_found">Зображення не знайдено.</string>
+    <string name="could_not_copy_image">Не можливо скопіювати зображення.</string>
+    <string name="this_option_is_not_available_until_the_book_is_saved">Ця опція не доступна, доки книгу не буде збережено.</string>
+    <string name="scan_barcode_isbn">Сканувати штрих-код/ISBN</string>
+    <string name="enter_isbn">Увести ISBN</string>
+    <string name="allow_asin">Дозволити ASIN</string>
+    <string name="x_is_not_a_valid_isbn_or_asin">%1$s Це не ISBN або ASIN не дійсний.</string>
+    <string name="confirm_exit">Підтвердити вихід.</string>
+    <string name="you_may_have_unsaved_changes">Можливо є незбережені зміни. Ви впевнені, що хочете вийти без збереження?</string>
+    <string name="read_year">Рік читання</string>
+    <string name="read_month">Місяць читання</string>
+    <string name="read_day">День читання</string>
+    <string name="sort_read_date">Дата читання</string>
+    <string name="details_have_changed">Редаговані зміни</string>
+    <string name="you_have_unsaved_changes">Є незбережені зміни. Якщо ви вийдете зараз, вони будуть втрачені.</string>
+    <string name="exit">Вийти</string>
+    <string name="continue_editing">Продовжити редагування.</string>
+    <string name="the_title_already_exists">Назва вже існує.</string>
+    <string name="year">Рік</string>
+    <string name="month">Місяць</string>
+    <string name="day">День</string>
+    <string name="edit_lc_ellipsis">Редагувати&#8230;</string>
+    <string name="getting_books_ellipsis">Отримання книг&#8230;</string>
+    <string name="n_events_found">%1$s Знайдені події</string>
+    <string name="last_error_e">Остання помилка: %1$s</string>
+    <string name="invalid_isbn_x_specified_in_search">У пошуку вказано не дійсний ISBN \'%1$s\' </string>
+    <string name="if_day_is_specified_month_and_year_must_be">Якщо визначено день, потрібно визначити також місяць та рік.</string>
+    <string name="if_month_is_specified_year_must_be">Якщо визначено місяць, потрібно визначити також рік.</string>
+    <string name="main_menu">Головне меню.</string>
+    <string name="use_external_image_cropper"Використовувати зовнішній обрізувач зображень (експериментально).</string>
+    <string name="auto_rotate_camera_images">Автоматично повертати зображення з камери.</string>
+    <string name="hint_autorotate_camera_images">Якщо завжди потрібно повертати зображення в тому самому напрямку, спробуйте змінити налаштування, щоб застосувати автоматичний обертання.</string>
+    <string name="default_crop_frame_is_whole_image">Зображення зберігається за замовчуванням повністю.</string>
+    <string name="cancelled">Відмінено</string>
+    <string name="import_complete">Імпорт завершено.</string>
     <string name="amazon_books">Amazon</string>
     <string name="google_books">Google Books</string>
     <string name="library_thing">LibraryThing</string>
-    <string name="searching_elipsis">Buscando&#8230;</string>
-    <string name="adding_book_elipsis">Añadiendo libro&#8230;</string>
-    <string name="prefs_global_opening_book_mode">Abrir libro en modo sólo lectura</string>
-    <string name="book_details_readonly_publishing">Editor</string>
-    <string name="book_details_readonly_by">por</string>
-    <string name="book_details_readonly_loaned_to">Prestado a %1$s</string>
-    <string name="book_details_readonly_pages">%1$s páginas</string>
+    <string name="searching_elipsis">Пошук триває&#8230;</string>
+    <string name="adding_book_elipsis">Додавання книги&#8230;</string>
+    <string name="prefs_global_opening_book_mode">Відкрити книгу в режимі тільки перегляд.</string>
+    <string name="book_details_readonly_publishing">Редагувати</string>
+    <string name="book_details_readonly_by">за</string>
+    <string name="book_details_readonly_loaned_to">Позичено %1$s</string>
+    <string name="book_details_readonly_pages">%1$s сторінок</string>
     <string name="brackets">(%1$s)</string>
     <string name="new_in_42">
 <![CDATA[
